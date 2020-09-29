@@ -10,6 +10,8 @@ Bonus: Can you do this in one pass?
 def check_set_for_desired_sum (sumTargetAnyTwo):
     #initialize variable to hold list of numbers to traverse
     numberList = [10, 15, 3, 7]
+    print ("Number List: " + str(numberList))
+    print ("Sum Of Any Two Numbers Target: " + str(sumTargetAnyTwo))
     #initialize iterator variables to assist with the check
     length= len(numberList)
     iter1 = 0
@@ -26,4 +28,4 @@ def check_set_for_desired_sum (sumTargetAnyTwo):
         iter1 = iter1 + 1
     return False
 
-print ("Algorithm Returns: " + str(check_set_for_desired_sum(57)))
+print ("Does sum of any two numbers equal target? => " + str(check_set_for_desired_sum(17)))
